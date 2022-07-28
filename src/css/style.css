@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+  outline: none;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5rem;
+  font-size: 1.3rem;
+  background: rgb(0, 0, 0);
+}
+
+.container{
+  max-width: 740px;
+  margin: 50px auto;
+  background: rgb(13, 13, 13);
+  padding: 10px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  border-radius: 20px;
+}
+
+.container h1{
+  font-size: 40px;
+  color: rgb(60, 26, 164);
+  margin-bottom: 20px;
+}
+
+button{
+  margin: 2.2rem 0;
+  padding: 8px;
+  background: rgb(60, 26, 164);
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(240, 227, 227);
+  cursor: pointer;
+}
+button:hover{ background: rgb(166, 30, 30);}
+button:active{ background: rgb(235, 45, 45);}
+
+.nova-tarefa{
+  padding: .6rem;
+  background-color: rgb(33, 33, 33);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 5px;
+}
+
+.nova-tarefa:focus{ border: 1px solid blue; }
+
+@media (min-width: 768px) { .container{ padding: 20px;} }
